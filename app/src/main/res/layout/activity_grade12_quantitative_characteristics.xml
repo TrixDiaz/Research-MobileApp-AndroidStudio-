@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeCharacteristics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Characteristics\nof Quantitative\nResearch (Alegre et al, 2021)"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="•Objective. Quantitative  research  seeks  accurate  measurement  and  analysis  of  target concepts. It is not based on mere intuition and guesses. Data are gathered before proposing a conclusion or solution to a problem.\n\n•Clearly Defined Research Questions. The  researchers know  in  advance what  they  are  looking  for.  The  research  questions  are  well-defined  for  which  objective answers are sought. All aspects of the study are carefully designed before data are gathered.\n\n•Structured Research Instruments. Standardized  instruments  guide  data collection,  thus,  ensuring  the  accuracy,  reliability  and  validity  of  data.  Data  are  normally gathered  using  structured  research  tools  such  as  questionnaires  to  collect  measurable characteristics  of  the  population  like  age,  socio-economic  status,  number of  children,  among others.\n\n•Numerical Data. Figures,  tables  or  graphs  showcase  summarized  data  collection in order  to  show  trends,  relationships  or  differences  among  variables.  In  sum,  the  charts  and tables allow you to see the evidence collected.\n\n•Large Sample Sizes. To  arrive  at  a  more  reliable  data  analysis,  a  normal  population distribution  curve  is  preferred.  This  requires  a  large  sample  size,  depending  on  how  the characteristics  of the  population  vary.  Random  sampling  is  recommended  in  determining  the sample size to avoid researcher’s bias in interpreting the results.\n\n•Replication. Quantitative methods can be repeated to verify findings in another setting, thus  strengthen  and  reinforcing  validity  of  findings  eliminating  the  possibility  of  spurious conclusions.\n\n•Future Outcomes. By  using  complex  mathematical  calculations  and  with  the  aid  of computers,  if-then  scenarios  may  be  formulated  thus  predicting  future  results.  Quantitative research puts emphasis on proof, rather than discovery.\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

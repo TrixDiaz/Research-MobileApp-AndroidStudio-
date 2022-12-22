@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".welcome">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/logo"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cosmic"
+        android:letterSpacing="0"
+        android:textAllCaps="true"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cosmic"
+        android:textAllCaps="true"
+        android:text="Researcher!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_style"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

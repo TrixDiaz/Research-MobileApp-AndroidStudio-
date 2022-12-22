@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeExperimental">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Experimental\n Research Design\n(Mariano, 2019)"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="The experimental research design allows the researcher to exert control over the situation. This type of research enables the researcher to determine cause and effect linkages between variables, discriminate between placebo and treatment effects, and answer the question, 'What causes something to occur?' The technique offers the highest level of evidence for single studies and supports the capacity to restrict alternative hypotheses and infer direct causal linkages in the study (Mariano, 2019). The following are the types of experimental research design:\n\n•Pre-experimental design. This types of research are experimental designs with the least internal validity. Among the pre-experimental designs are the one group posttest-only and the one group pretest-posttest design.\n\n1.One Shot Case Study - a single group is studied at a single point in time after some treatment that is presumed to have caused change. The carefully studied single instance is compared to general expectations of what the case would have looked like had the treatment not occurred and to other events casually observed. No control or comparison group is employed.\n2.One Group Pre-Test Post-Test Design - a single case is observed at two time points, one before the treatment and one after the treatment. Changes in the outcome of interest are presumed to be the result of the intervention or treatment. No control or comparison group is employed.\n\nTwo classes of experimental designs can provide better internal validity than-pre-experimental designs: quasi-experimental and true experimental.\n\n•Quasi-experimental Design. With this approach, the researcher can get more data by either planning more observations or locating additional existing measures. Quasi-experimental research designs do not randomly assign participants to treatment or control groups for comparison  as opposed to a true experimental design which requires randomization.\n\n     For instance, a class might be divided based on seating arrangement or alphabetical selection, in order to conduct an educational experiment. The divide frequently works out well and, particularly in a classroom setting, causes the least amount of interruption.\n     The experiment then proceeds quite similarly to any other experiment, with a variable being compared across various groups or over a period of time. Since children and instructors are frequently unable to be randomly allocated to districts, schools, or classrooms for research purposes, quasi-experimental methods are frequently employed in educational research. There are two types of quasi-experimental design, these are:\n\n1.Non-equivalent/ Non-randomized control group design - refers to the chance failure of random assignment to equalize the conditions by converting a true experiment into this kind of design, for purposes of analysis.\n2.Interrupted Time Series Design - employs multiple measures before and after the experimental intervention. It differs from the single-group pre-experiment that has only one pretest and one posttest. Users of this design assume that the time threats such as history or maturation appear as regular changes in the measures prior to the intervention.\n\n•True-experimental Design. True experimental design  offers  the  highest  internal  validity  of  all  the designs. Two features mark true experiments: two or more differently treated groups (control and experimental group); and  random  assignment  to  these  groups.  These  features  require  that  the researchers  have  control  over  the  experimental  treatment  and  the  power  to  place subjects in groups. True  experimental design  employs  both  treated  and  control  groups  to deal with time-related rival explanations. A control group reflects changes other than those due to the treatment that  occur  during  the  time  of  the  study.  Such  changes  include  effects  of  outside events, maturation by the subjects, changes in measures and impact of any pre-tests. The following are the kinds of tru-experimental research design as defined by the American Psychological Association Dictionary of Psychology:\n\n1.Post-test Only Control - a research design in which an experimental group and a control group are compared on a posttest measure only. It is assumed that participants’ results on any pretest administered before the introduction of the experimental manipulation would be essentially equivalent across the groups due to the random assignment of individuals to conditions. A posttest-only control-group design is distinct from a posttest-only design, in which all groups receive some treatment and there is no neutral comparison.\n2.Pre-Test Post-test Only Design - a research design in which the same assessment measures are given to participants both before and after they have received a treatment or been exposed to a condition, with such measures used to determine if there are any changes that could be attributed to the treatment or condition. A more complete version in which participants are randomly assigned to a treatment group or a control group is a pretest–posttest control-group design: All individuals are assessed at the beginning of the study, the intervention is presented to the treatment group but not the control, and then all individuals are measured again. The presence of the control group allows the researcher to identify any preexisting disparities between the groups and thus to more definitely attribute differences between the pre- and posttest scores to the treatment of interest. Also called before–after design; pre–post design.\n3.Solomon Four-group Design - an experimental design that assesses the effect of having been pretested on the magnitude of the treatment effect. Participants are randomly divided into four groups and each group experiences a different combination of experimental manipulations: the first group (A) receives the pretest, the treatment, and the posttest; the second group (B) receives only the treatment and posttest; the third group (C) receives the pretest, no treatment, and a posttest; and the fourth group (D) receives only a posttest. The major advantages of the Solomon four-group design over a traditional two-group pretest–posttest design are that it reduces the influence of confounds and that it can pinpoint whether changes in the dependent variable are due to some interaction effect between the pretest and the treatment. A major disadvantage, however, is that its analysis and statistics are complex.\n4.Factorial Design - an experimental study in which two or more categorical variables are simultaneously manipulated or observed in order to study their joint influence (interaction effect) and separate influences (main effects) on a separate dependent variable. For example, a researcher could use a factorial design to investigate treatment type (e.g., new exercise procedure vs. traditional procedure) and age (＜ 40 vs. ＞ 40). The primary advantages of factorial designs are that they allow for the evaluation of interrelationships and that they are more efficient than conducting multiple studies with one variable at a time. See also fractional factorial design; two-by-two factorial design.\n5.Randomized Block Design - an approach to assigning participants to treatment conditions in which meaningful discrete strata within the sample (e.g., gender, experience) are used to identify homogeneous subsamples; individuals from each subsample or “block” are then assigned randomly to the different conditions. In this way, participants are initially matched on a “blocking variable” that the researcher wishes to control. The acknowledgment of heterogeneity within the sample enables the researcher to reduce within-group variance and to use that information when evaluating treatment effects. The variable on which participants are stratified is assessed prior to the study.\n6.Crossover Design - a study in which different treatments are applied to the same individuals but in different sequences. In the most basic crossover design, a group of participants receives Treatment A followed by Treatment B whereas a second group receives Treatment B followed by Treatment A. For example, a researcher could use such a design to assess the effect of attending a day service on stroke survivors, randomly assigning participants to one of two groups, the first of which would attend the service for 6 months and then not attend for 6 months, and the second of which would not attend the service for 6 months and then would attend for 6 months. As with within-subjects designs, the benefit of this design is the reduction in error variance."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

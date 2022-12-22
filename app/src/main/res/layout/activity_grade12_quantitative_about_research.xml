@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeAboutResearch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About Research"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Quantitative Research\n\nQuantitative research is defined as an objective, systematic empirical investigation of observable phenomena  through the  use  of  computational  techniques.  It  highlights  numerical  analysis  of  data hoping that the numbers yield unbiased results that can be generalized to some larger population and explain a particular observation. Simply, quantitative research is concerned with numbers and its relationship with events (Alegre et al., 2021).
+\n\n For example, the academic performance of Grade  12  Students in  Valenzuela City School of Mathematics and Science  and  Malinta  National  High  School  in  Physical Science  when  a digital learning app is integrated in  teaching will be studied. \n\n This  can  be  approached  by  getting  the  average performance (grades or test scores) of students from both  schools  before  and  after  integrating  the learning app.  Then  the  averages  can  be compared and analyzed using appropriate statistical tools to see the differences or effectiveness of the intervention. In this case, numbers are used as data for analysis, hence, it is a quantitative study."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

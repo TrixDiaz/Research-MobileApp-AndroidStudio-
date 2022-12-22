@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeNature">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  The Nature\n of Variables"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="A variable specifically refers to characteristics or attributes of an object of the study that can be measured or observed and that varies among the subjects being studied. Choosing which variables to measure is central to a good experimental design. You need to know which types of variables you are working with in order to choose appropriate statistical tests and interpret the results of your study.
+For example, if you want to test whether some plant species are more salt-tolerant than others, some key variables you might measure include the amount of salt you add to the water, the species of plants being studied, and variables related to plant health like growth and wilting.
+\n\nKinds of VariablesAccording to Alegre (2019), several experts have lumped together the following as the major kinds of variables:\n\n•Independent Variables - hose  that  probably  cause,  influence,  or  affect  outcomes. They  are invariably  called  treatment,  manipulated,  antecedent  or  predictor  variables.  This  is  the cause variable or the one responsible for the conditions that act on something else to bring about changes.\n\n•For example, a study  is  about  the  relationship  of study  habits and  academic  performance  of Valenzuela City School of Mathematics and Science  senior  high  school  students.  Study habits  is  the  independent  variable  because  it is the one that influences the outcome or the performance of the students\n\n•Dependent Variables –those  that  depend  on  the  independent  variables;  they  are  the outcomes  or  results  of  the  influence  of  the  independent  variable.  That  is  why  it  is  also  called outcome variable.\n\n•For example, a study  is  about  the  relationship  of study  habits and academic  performance of Valenzuela City School of Mathematics and Science senior  high  school  students.  Academic performance  is  the  dependent  variable because  it  is  dependent  on  the  study  habits  of  the  students and it is the one that the researchers aim to measure.\n\n•Control Variables –A special types of independent variables that are measured in the study  because  they  potentially  influence  the  dependent  variable.  Researchers  use  statistical procedures (e.g. analysis of covariance) to control these variables. They may be demographic or personal  variables  that  need  to be “controlled” so that the true influence of the independent variable on the dependent variable can be determined.\n\n•For example, a study  is  about  the  relationship  of study  habits and academic  performance of Valenzuela City School of Mathematics and Science senior  high  school  students.  Age and grade level  are  the  control  variables that the researchers may set to determine only the independent variable’s effect on the dependent variable.\n\nTypes of Variables (Allen, Titsworth, Hunt, 2009)\n\nContinuous Variables - variable that can take infinite number on the value that can occur  within  the  population.  Its  values  can  be  divided  into  fractions. Examples  of  this  type  of variable include age, height, and temperature. Continuous variables can be further categorized as:\n\n•Interval Variables – It  has  values  that  lie  along  an  evenly  dispersed  range  of numbers. It is a measurement where the difference between two values does have meaning. In temperature, this may illustrate that the  difference  between  a  temperature  of  60  degrees  and  50  degrees  is  the  same  as the difference between 30 degrees and 20 degrees. The interval between values make sense and can be interpreted.\n\n•Examples of interval data include temperature, a person’s net worth (how much money you have when you subtract your debt from your assets), pH measure, credit score, etc. \n\n•Ratio  Variables – It  has  values that  lie  along  an  evenly  dispersed  range  of  numbers where  there  is  absolute  zero.  It  possesses  the  properties  of  interval  variable  and  has  a  clear definition of zero, indication that there is none of that variable. Temperature  measured  in  degrees Celsius  and  degrees  Fahrenheit  is  not  a  ratio  variable  because  0  under  these  temperatures scales does not mean no temperature at all.
+\n\n•Examples of which are height, weight,  and  distance.  Most  scores  stemming  from  response  to  survey  items  are  ratio-level values  because  they  typically  cannot  go  below  zero. \n\nDiscrete  Variables –This  is also  known  as  categorical  or  classificatory  variable.  This  is any variable that has limited number of distinct values and which cannot be divided into fractions like  sex,  blood  group,  and  number  of  children  in  family.  Discrete  variable  may  also  categorized into:\n\n•Nominal Variable –It represent categories that cannot be ordered in any particular way.  It  is  a  variable  with  no  quantitative  value.  It  has  two  or  more  categories  but  does  not imply ordering of cases.\n\n•Common examples of this variable include eye color, business type, religion, biological sex, political affiliation, basketball fan affiliation, etc. A sub-type of nominal scale with only two categories just like sex is known as dichotomous.\n\n•Ordinal Variable –It  represent  categories  that  can  be  ordered  from  greatest  to smallest. This variable has two or more categories which can be ranked. An  illustration  of  this  is,  if  you  asked people if they liked listening to music while studying and they could answer either “NOT VERY MUCH”, “MUCH”, “VERY MUCH” then you have an ordinal variable. While you can rank them, we cannot place a value to them. In this type, distances between attributes do not have any meaning. \n\n•Examples of ordinal variable  include  education level,  income  brackets,  etc. For instance, you used educational attainment as a variable on survey, you might code elementary school graduates = 1, high graduates = 2, college undergraduate = 3, and  college  graduate  =  4.  In  this  measure,  higher  number  means  greater  education.  Even though we can rank these from lowest to highest, the spacing between the values may not be the same across the levels of the variables. The distance between 3 and 4 is not the same with the distance between 1 and 2."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

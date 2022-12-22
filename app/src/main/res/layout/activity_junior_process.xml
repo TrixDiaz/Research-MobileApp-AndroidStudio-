@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JuniorProcess">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Process"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="The word research continues to seek for future development of society and give opportunity to enhance a person’s skills. Research inquires systematic steps to further practice the objectives answering the stated hypothesis. These common processes are based by Business Research Methodology, n.d:\n\n
+Step 1: Choose a research topic\n\n
+- Think about a topic that piques your interest and can be beneficial to the society. A wide background of knowledge about the topic will help to generate more ideas.\n\n
+Step 2: Determine the existing problem\n\n
+- The main step to give the chosen topic a structure is to identify what is being observed.\n
+- Define the research problem and investigate its underexplored areas that can solve continuous discoveries.\n\n
+Step 3: Develop a research aim, questions, and hypothesis\n\n
+- To further define the structure of the chosen study, developing a terminal and specific objectives as well as questions and hypothesis are required to proceed in the process of testing.\n
+- Stating an objectives will give a purpose to the study. Research questions are the directions to be followed and the future answer of such questions lie upon the hypothesis.\n\n
+Step 4: Construct a Literature Review\n\n
+- The usage of secondary sources such as books, journal articles, magazines, and newspapers to broaden knowledge in a chosen topic.\n
+- Formulation of a literature review helps the researcher to see possible problems to be addressed and elaborate concepts existing in the idea.\n\n
+Step 5: Create research framework\n\n
+- A research framework will establish the methodology of the study that will  obtain results from experimentation until findings.\n
+- This comprises the specific steps in acquiring the data, analysis and statistical techniques, extensive explanation of findings based on the interpreted results.\n
+- It depends which type of research will be used either quantitative or qualitative with underlying categories like physical science, life science, and many more.\n\n
+Step 6: Formulating conclusions\n\n
+- After following a rigid process, a conclusion must be drawn to answer underlying hypothesis with aiming objectives in mind.\n
+- There will be justifications that explain the limitations of the research and suggestions.\n\n
+Step 7: Complete and Finalize Revisions\n\n
+- Continuous revisions will be considered before the final completion of a research paper. Organizing multiple drafts and outlines require sufficient time to improve the flow of ideas of the study.\n
+"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

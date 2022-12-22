@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Apa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Apa 7th Edition"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="APA, which stands for American Psychology Association, is a referencing style primarily used in fields related to education and in (behavioral and social) sciences such as psychology, sociology, history, and communication (McCombes, 2022). The APA style is currently in its 7th edition, providing more extensive, student specific, inclusive, and bias-free guidelines in citing references.\n\nThe changes in APA 7th edition include:\n\n1.The publisher location is no longer included.\n•Previous\n Editions:
+Urbina, S. (2022). The ultimate guide to a healthy relationship. New York, NY: Icha and Verlass.\n•7th Edition:\n
+Urbina, S. (2022). The ultimate guide to a healthy relationship. Icha and Verlass.\n2.In-text citations for works with more than three authors are shortened. “Et al.” is used after the first author’s name.\n•Previous Editions:\n
+(Feliciano, Salazar, and Teodoro, 2021)\n•7th Edition:\n(Feliciano et al., 2021)\n•3.Rather than only 7, surnames and initials for up to 20 authors should be included in the reference list.\n•Previous Editions:\n
+Alegre, M.B., Bulaqueña, J., Canoza, M.J., Joguilon, S., … Valencia, J.R. (2021).\n•7th Edition:\n
+Alegre, M.B., Bulaqueña, J., Canoza, M.J., Joguilon, S., Laguador, R.A., Lopez, E.D., Magbayao, O., Millares, B.L., Padrinao, J.M., Pecate, R.J., Peregrina, L.J., Porquis, I.V., Ramos, D., Rodriguez, J.G., Salazar, B.M., Salva, S., Santos, J.A., Sedavia, S., Sentillas, C., Valencia, J.R. (2021).\n4.The label “DOI:” is no longer needed as DOIs are now formatted the same as URLs.\n•Previous editions:
+doi: 10.1087/06082555.2021.1560448\n•7th Edition:\n
+https://doi.org/10.1087/06082555.2021.1560448\n5.There is no need to add “Retrieved from” before URLs, unless a retrieval date is required. The website name must also be provided (except if it’s the same as the author).\n•There is no need to add “Retrieved from” before URLs, unless a retrieval date is required. The website name must also be provided (except if it’s the same as the author).\n•Previous Editions:\n\nReferences\n•\n•Journal Article \nFail, H., Thompson, J., and Walker, G. (2004). Belonging, identity and Third
+Culture Kids. Journal of Research in International Education, 3(3), 319–338. https://doi.org/10.1177/1475240904047358
+Teodoro, M.D. (2020, February 14). Girlboss your way to college. Retrieved from https://www.bbc.com/news/lifestyle-24890736\n•7th Edition:
+Teodoro, M.D. (2020, February 14). Girlboss your way to college. BBC News. https://www.bbc.com/news/lifestyle-24890736.\n.In citing ebooks, the format, platform, or device is no longer necessary in the reference, while the publisher must be included.\n•Previous Editions:\n
+Salazar, B.M. (2019). What would the world be if men and women are considered equal? [Kindle version]. doi: 10.2004/968-50-481-2473-5.\n•7th Edition:\n
+Salazar, B.M. (2019). What would the world be if men and women are considered equal? Hobbes Publishing Company. https:/doi.org/10.2004/968-50-481-2473-5\n7.Clear guidelines are provided for citing contributors other than the authors and editors.\n•Web Page\nAdams, B. (2020, October 28). First Conviction of Officers in Philippines
+‘Drug War.’ Human Rights Watch. https://www.hrw.org/news/2018/11/29/first-conviction-officers-philippines-drug-war
+\n•Books\nSchmidt, N. A., and Brown, J. M. (2017). Evidence‐based practice for
+nurses: Appraisal and application of research (4th ed.). Jones and Bartlett Learning, LLC.
+\nNew Article•Chang, K. (2022, December 12). Major nuclear fusion energy
+
+
+
+
+"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="-80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <Button
+                android:id="@+id/JuniorWebViewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Continue Reading"
+                android:layout_gravity="center"
+                android:layout_marginTop="-59dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

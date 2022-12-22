@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="-25dp"
+        android:onClick="ClickLogo"
+        android:paddingBottom="10dp"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Junior Researcher"
+        android:layout_marginTop="-90dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="@font/cosmic"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="Clickhome"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:fontFamily="@font/cosmic"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickAboutResearch"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="About Research"
+            android:textSize="20dp"
+            android:paddingTop="20dp"
+
+            android:fontFamily="@font/cosmic"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickEthicsResearchIndependent"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:text="Research Ethics"
+            android:paddingBottom="10dp"
+            android:fontFamily="@font/cosmic"
+
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickEthicsResearch"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Proper Paper Format"
+            android:textSize="18dp"
+            android:fontFamily="@font/cosmic"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickEthicsResearch"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Traditional Format"
+            android:textSize="20dp"
+            android:fontFamily="@font/cosmic"
+            android:textAllCaps="true"
+            android:layout_marginStart="65dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickEthicsResearch"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IMRAD-C"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:paddingBottom="20dp"
+            android:layout_marginStart="65dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickReferenceFormat"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reference Format"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickReferenceFormat"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="APA 7th Edition"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:layout_marginStart="65dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickReferenceFormat"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CMOS"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:layout_marginStart="65dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickReferenceFormat"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MLA"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:layout_marginStart="65dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="clickReferenceList"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:text="Reference List"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/cosmic"
+
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+
+        android:layout_marginBottom="17dp"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickLogout"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/cosmic"
+            android:textSize="20dp"
+            android:text="Exit"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Application">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 2"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Review of Related Literature and Studies: The research and studies listed in this chapter cover a variety of concepts, understandings, ideas, generalizations, and developments related to the study of enlistment from the past through the present, and they act as a researcher's guidance in creating the project. Information that is pertinent to and similar to the current study is familiarized by using those that were also included in this chapter.\n\nIn general, Chapter 2's first part outlines the chapter's structure and describes the subsections that make up the chapter. For instance, Chapter 2 offers a thorough analysis of the literature and studies on primary selection. The chapter will be broken up into sections that cover the following topics: (a) the history of the principalship; (b) the significance of the principal; (c) present selection processes; and (d) suggested selection practices. In order to properly organize the information offered in Chapter 2, which may be lengthy, the chapter must be divided into as many sections and subsections as necessary.\n\nRelated Literature: An objective, condensed, critical overview of published research literature pertinent to a topic under investigation in an article is known as a literature review (or 'relevant review of the literature'). A good related literature review does:\n\n •Give readers a quick typology that classifies articles and books in order to assist them concentrate on unresolved arguments, contradictions, conflicts, and fresh issues regarding a research topic.\n •Write a summary of the key ideas from the scientific literature that pertains to your field of study.\n •Outline what prior research suggests about a subject, summarize what has been done in this field of study and by whom, and spot any gaps or areas of disagreement in the field.\n •Explain the field's history to the reader, identify the key studies, and draw attention to any flaws in earlier research.\n\nRelated Studies: It is an overview of studies relevant to a certain field of study. It finds and compiles all pertinent research that has been done on a specific subject. Your literature study must have a clear focus. Therefore, instead of attempting to compile a broad range of research that might not be strongly related to your topic, you should select a small number of studies that are essential to it. Related studies should:\n\n •Analyze previous research - You can see what research has previously been done by gathering relevant resources. Additionally, it will assist prevent duplication.\n •Choose experts - Finding reliable researchers with expertise in a particular topic is crucial so you may ask them for assistance if you run into problems with some of your research.\n •Identify the primary issues - In the end, you want to add something fresh to the conversation. You can identify the crucial inquiries that must be answered by gathering resources.\n •Identify the methods employed in previous investigations - You will have the chance to see issues and discover fresh approaches to research and study a topic if you are aware of how others have tackled a specific subject.\n\nSynthesis: It is the analysis that involves comparison, contrast, classification, and division.  Synthesis is the process of combining two or more sources while looking for common themes. In synthesis, you look for connections between numerous materials to back up your claim. You are joining the intellectual study on cutting-edge subjects in your field of study at the upper-division and graduate level. As a result, you must demonstrate that you comprehend and have the ability to add to the discourse by incorporating research on these subjects in a novel way. By combining existing research in your area of study and adding a fresh interpretation or analysis of those sources, you can demonstrate your ability to synthesize research.\n\nThe research on your issue must first be examined attentively in order to successfully synthesize the literature. Following that, you should consider the connections between all of the concepts and discoveries. Thinking about the authors of the research debating the subject in a research conference is a fantastic approach to conceptualize synthesis. Instead of presenting summaries of their research individually, participants would engage in a lively discussion on how their findings were similar and different. A back-and-forth discussion between the researchers should be the main subject of your paragraphs.\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

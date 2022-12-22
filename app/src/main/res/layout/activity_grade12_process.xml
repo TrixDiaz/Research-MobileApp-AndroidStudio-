@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Process">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 3"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Sampling\n\nSampling is a method that is used by researchers to draw conclusions about a population based on data from a sample of that group without having to look at every single person. Given that the sampling method may have an impact on the sample size estimation, the sampling strategy needs to be described in the research plan or research paper advance (Krause et al., 2011, as cited in Martínez-Mesa et al., 2016). There are two major types of sampling: probability and non-probability sampling.\n\nWhat is a Sample?\nAccording to Martínez-Mesa et al. (2016), a sample is a limited number of people chosen at random from the target population. The total group of people whose characteristics are relevant to the research team is known as the target population. The required number of participants or the sample size can be computed using a formula.\nWhere,\nn is the sample size\nN is the population size\ne is the desired margin of error\n\nTwo Major Sampling Techniques (based on Martínez-Mesa et al., 2016)\nNon-Probabilistic Sampling\nThis form of sampling does not produce a representative sample; the observed results are typically not generalizable to the target population. Unrepresentative samples may nonetheless be helpful for some specific research goals, assist in providing answers to certain research problems, and aid in the development of new hypotheses. There are four different types of non-probabilistic sampling.\n •Convenience Sampling - is typically the foundation of randomized clinical studies. The participants are consecutively chosen in appearance order based on their easy accessibility or availability and capability (also known as consecutive sampling). When the maximum number of participants (sample saturation) and/or the allotted length of time (time saturation) are reached, the sampling procedure is complete. Following sampling, participants are typically assigned at random to the intervention or control group (randomization). However, despite the fact that randomization is a probabilistic method for generating two comparable groups (treatment and control), the samples used in these studies are frequently not representative of the intended audience.\n •Purposive Sampling - is a method that is employed when a diversified sample is required or when the viewpoints of experts in a certain field are the subject of inquiry. It is also known as judgemental or subjective sampling. Furthermore, it is also used when participants are chosen based on a criteria or a special purpose.\n\nA good example is the study by Roubille et al., recommendations for the treatment of comorbidities in patients with rheumatoid arthritis, psoriasis, and psoriatic arthritis were made based on the judgment of a panel of experts.\n\n •Quota Sampling - initially divides the population into categories based on attributes like gender, age, etc. To fulfill each quota, sampling units are then chosen\n\nA great example is the study of Larkin et al. where patients with locally advanced melanoma, stage IIIC or IV, with a BRAF mutation, were compared to receive vemurafenib plus cobimetinib vs a placebo. The study enrolled 495 patients from 135 healthcare facilities spread across different nations. Each center in this study has a 'quota' of patients.\n •Snowball Sampling - is a sampling technique wherein the researcher chooses a starting set of participants; this starting set of participants are also referred to as the key informants. These participants then nominate additional possible study subjects who share their traits.\n\nThis is typically employed in research looking at particular groups, such as those that include people who use illegal drugs, as was the case with the study by Gonçalves et al., which evaluated 27 people who used cocaine and crack in addition to marijuana.\nProbabilistic Sampling\nProbabilistic sampling is a technique where all units in the target population have a non zero possibility of participating in the study. Equiprobabilistic sampling is when all participants have an equal chance of being chosen for the study. In this case, the odds of being chosen by the research team can be expressed by the formula P=1/N, where P is the probability of participating in the study and N is the size of the target population. There are five types of probabilistic sampling.\n\n •Simple Random Sampling - is the most frequently used type of sampling. It uses a table of random numbers to select individuals at random from a full list of sample units or participants, an example of this is the fishbowl method.\n\nAn illustration is the study by Pimenta et al., in which the authors selected a sample of 449 participants using simple random sampling after obtaining a list of all older people enrolled in the Family Health Strategy from the Health Department.\n •Systematic Random Sampling - is used by choosing individuals from a ranked list of participants at predetermined intervals that have been previously defined.\n\nIn the study by Kelbore et al., for instance, children who received assistance at the Pediatric Dermatology Service were chosen to examine characteristics linked to atopic dermatitis, always choosing the second kid by consulting order.\n •Stratified Random Sampling - in this, the target population is first divided into separate subgroups that we call strata. Then, samples are selected within each stratum, either through simple or systematic sampling. The total number of individuals to be selected in each stratum can be fixed or proportional to the size of each stratum. Each individual may be equally likely to be selected to participate in the study. However, the fixed method usually involves the use of sampling weights in the statistical analysis (inverse of the probability of selection or 1/P).\n\nAn example is the study conducted in South Australia to investigate factors associated with vitamin D deficiency in preschool children. Using the national census as the sample frame, households were randomly selected in each stratum and all children in the age group of interest identified in the selected houses were investigated.\n •Cluster Sampling - is used in large scale surveys where the participants are spread across a geographical location; participants are grouped into “clusters”. The three classification of this are: one-stage cluster sampling, two-stage cluster sampling, and multi-stage cluster sampling.\n •Groups including healthcare facilities, schools, and other institutions are sampled in this kind of probabilistic sampling.\n •Complex or Multi-Stage Sampling - this probabilistic sampling technique includes various methods for choosing the sample units.\n\nAs an illustration, consider the study conducted by Duquia et al. to evaluate the prevalence and risk variables related to adult sunscreen use. The sample procedure was divided into two stages. The 404 census tracts from Pelotas (Southern Brazil) were listed in descending order of household income using the 2000 Brazilian demographic census as the sampling frame. 120 tracts were methodically chosen for the sample (first sampling stage units). Twelve homes in each of these census tracts (second sampling stage units) were carefully selected for the second stage. The study covered all of the adult residents of these homes (third sampling stage units). In the statistical analysis, each of these phases must be taken into account.\n\nResearch Instrument\nResearch Instruments are basic tools researchers used to gather data for specific research problems. Common instruments are performance tests, questionnaires, interviews, and observation checklist. The first two instruments are usually used in quantitative research, while the last two instruments are often in qualitative research. However, interviews and observation checklists can still be used in quantitative research once the information gathered is translated into numerical data\nWays in Developing Research Instrument\nThere are three ways you can consider in developing the research instrument for your study:\n\n •Adopting an instrument from the already utilized instruments from previous related studies\n •Modifying an existing instrument when the available instruments do not yield the exact data that will answer the research problem\n •Researcher makes his/her own instrument that corresponds to the variable and scope of the current study\n\nCommon Scales Used in Quantitative Research\n •Likert Scale. This is the most common scale used in quantitative research. Respondents were asked to rate or rank statements according to the scale provided.\n •Semantic Differential. In this scale, a series of bipolar adjectives will be rated by the respondents. This scale seems to be more advantageous since it is more flexible and easy to construct.\n\nInstrument Development\nThere are five sequential steps involved in developing and testing an instrument: research background, instrument conceptualization, format and data analysis, and establishing validity and reliability. Systematic development of instruments is a must to reduce many measurement errors. Following these five steps in instrument development and testing will enhance data quality and utilization of research.\nThe Five steps in Developing an Instrument (Radhakrishna, 2007)\n\nStep 1: Background\nThe purpose, objectives, research questions, and hypothesis of the proposed research are examined. Determining who is the audience, their background, especially their educational/readability levels, access, and the process used to select the respondents (sample vs. population) are also part of this step. A thorough understanding of the problem through literature search and readings is a must\n\nStep 2: Questionnaire Conceptualization\nAfter developing a thorough understanding of the research, the next step is to generate statements/questions for the instrument. In this step, content (from literature/theoretical framework) is transformed into statements/questions. In addition, a link among the objectives of the study and their translation into content is established. For example, the researcher must indicate what the instrument is measuring, that is, knowledge, attitudes, perceptions, opinions, recalling facts, behavior change, etc. Major variables (independent, dependent, and moderator variables) are identified and defined in this step.\n\nStep 3: Format and Data Analysis\nIn this step, the focus is on writing statements/questions, selection of appropriate scales of measurement, instrument/questionnaire layout, format, question ordering, font size, front and back cover, and proposed data analysis. Scales are devices used to quantify a subject's response on a particular variable. Understanding the relationship between the level of measurement and the appropriateness of data analysis is important. For example, if ANOVA (analysis of variance) is one mode of data analysis, the independent variable must be measured on a nominal scale with two or more levels (yes, no, not sure), and the dependent variable must be measured on a interval/ratio scale (strongly agree to strongly disagree).\n\nStep 4: Establishing Validity\nAs a result, a draft instrument is ready for establishing validity. Validity is the amount of systematic or built-in error in measurement (Norland, 1990). Validity is established using a panel of experts and a field test. The following questions are addressed in this step:"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="-80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <Button
+                android:id="@+id/JuniorWebViewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue Reading"
+                android:layout_gravity="center"
+                android:layout_marginTop="-59dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

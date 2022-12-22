@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context=".Contact">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="wrap_content"
+           android:layout_height="100dp"
+           android:layout_margin="20dp"
+           app:srcCompat="@drawable/logo"
+           android:layout_gravity="center"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="About Primer"
+           android:textColor="@color/white"
+           android:layout_marginLeft="40dp"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:layout_marginLeft="40dp"
+           android:padding="20dp"
+           android:textSize="23dp"
+           android:text="Contact
+Should you have any questions? Contact us\n\nMa. Dynesse Loreal Teodoro\nmadynesseloreal.teodoro.320401@gmail.com\n09683104794\n\nMavie Gail Feliciano\nfelicianomavie04@gmail.com\n09914384200\n\nBianca Margarethe Salazar\nbiancamargarethe.salazar.320401@gmail.com\n09193650970\n\nIcha Verlass Porquis\nichaverlass.porquis.320401@gmail.com\n09683104890\n\nSophiya Urbina\nsophiya.urbina.320401@gmail.com\n09683104724\n\n"/>
+
+
+   </LinearLayout>
+</ScrollView>

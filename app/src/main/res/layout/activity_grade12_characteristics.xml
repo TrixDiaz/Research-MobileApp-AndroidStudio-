@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Characteristics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 2"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Conceptual Framework\nDeveloping a Conceptual Framework (Swaen and George, 2022)\n\nA conceptual framework is the illustration of how your variables should be related to one another; this represents the link between your variables, or the traits or features you want to investigate. It outlines how your research method's pertinent objectives fit together to provide logical findings. Additionally, the conceptual framework is often created using a literature analysis of previous studies on your issue. They can be textual and/or visually presented.\n\nStep 1:  Choose your research question\nYou should first consider creating a conceptual framework before you begin gathering your data. The conceptual framework will assist you in outlining the variables you will track and their expected relationships. In order to create a conceptual framework you should first plan and/or evaluate your research questions as this will be your guide in defining precisely what you want to learn. Your research questions will give your investigation a focused direction.\n\nStep 2: Select your independent and dependent variables\nAfter choosing your research question, the next thing you should accomplish is identify at least two variables. The identification of the two variables, independent and dependent variable, will enable you to test a cause-and-effect relationship and go forward with your research topic. Remember that many independent variables frequently influence the dependent variable in causal relationships.\n\nStep 3: Visualize your cause-and-effect relationship\nAfter the preliminaries, you can now start constructing your conceptual framework. You must first visualize your anticipated cause-and-effect relationship before integrating it into a conceptual framework. In order to illustrate this, we use the fundamental design elements of boxes and arrows to illustrate this. Each variable is displayed in a box and each arrow should originate from the independent variable (the cause) and point toward the dependent variable to denote a causal link (the effect)\n\nStep 4: Identify other influencing variables\nAside from your independent and dependent variables, you should also identify the other variables which might have an impact on the relationship between your independent and dependent variables. Some common variables you should identify early in your research process are moderating, mediating, and control variables.\n •Moderating Variable (or Moderator)\n •This variable modifies the influence that an independent variable has on a dependent variable.\n •Although this influences the dependent variable, it is unaffected by the independent variable.\n\nMediating Variable\n •This type of variable improves our understanding of the relationship of the independent and dependent variables by connecting them.\n •This is affected by the independent variable and consequently it also influences the dependent variable; this aids in illuminating their relationship.\n\nControl Variable\n •Variables that are kept constant are examples of this type of variable; keeping them constant prevents them from influencing the outcomes.\n •You must consider and keep track of this regardless of your interest in measureing them for your research.\n •Other variables you should take note of are manifest variable (observable and is  readily measurable) and latent variable (cannot be readily measured by a single question).\n\nThe Research Hypotheses\n\nResearch Hypothesis\nResearch Hypothesis is a specific, verifiable description of what the researcher(s) predict will happen in the study; stated at the start of the study (McLeod, 2018)\nFormulating a Research Hypothesis (Characteristics and Qualities of a Good Hypothesis, 2013)\n\n •Power of prediction - It not only resolves the difficult scenario that is currently occurring, but it also makes predictions about what will happen in the future.\n •Closest to observable things - A hypothesis can be verified using observable phenomena.\n •Simplicity - It should be understandable to everyone, including non-researchers.\n •Clarity - It must employ clear terminology that is understandable to everyone.\n •Testability - It needs to be verified and thoroughly observed before being expressed and developed.\n •Relevant to the problem - It serves as direction for identifying and fixing an issue, thus it must be in line with the problem.\n •Specific - It ought to be created to address a particular issue.\n •Relevant to available techniques - It must be applicable to the testing methodologies available.\n •Fruitful for new discoveries - It needs to be able to offer fresh ideas and sources of information leading to new scientific discoveries.\n •Consistency and Harmony - It should not contain any contradictions and/or conflicts."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

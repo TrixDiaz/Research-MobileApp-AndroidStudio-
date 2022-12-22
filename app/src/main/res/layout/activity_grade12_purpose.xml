@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Purpose">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="Chapter 5"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Guidelines in Making Conclusion\n\nhe conclusion is intended to help the reader understand why your research should matter to them after they have finished reading the paper. A conclusion is not merely a summary of your points or a re-statement of your research problem but a synthesis of key points. For most essays, one well-developed paragraph is sufficient for a conclusion, although in some cases, a two-or-three paragraph conclusion may be required.\n\nImportance of a Good Conclusion\n\nA well-written conclusion provides you with several important opportunities to demonstrate your overall understanding of the research problem to the reader. These include:\n\n1.Presenting the last word on the issues you raised in your paper. Just as the introduction gives a first impression to your reader, the conclusion offers a chance to leave a lasting impression. Do this, for example, by highlighting key points in your analysis or findings.\n2.Summarizing your thoughts and conveying the larger implications of your study. The conclusion is an opportunity to succinctly answer the 'so what?' question by placing the study within the context of past research about the topic you've investigated.\n3.Demonstrating the importance of your ideas. Don't be shy. The conclusion offers you a chance to elaborate on the significance of your findings.\n4.Introducing possible new or expanded ways of thinking about the research problem. This does not refer to introducing new information [which should be avoided], but to offer new insight and creative approaches for framing/contextualizing the research problem based on the results of your study.\n\nPossible Structure of Conclusion:\n\n •Summary of the findings. Restate briefly the work carried out, the aims and hypotheses or research questions. Highlight the most important findings.\n •Evaluation of the study. State what you consider to be the achievements and limitations of your work. Assess how far the aims of your research have been satisfied. Here you can include a personal assessment of what you have learnt (if you are asked to provide it)\n •Suggestions for future research. Suggest how your work reported in this paper opens new research possibilities.\n •Implications of the study (positive). Place the study in a wider context of research in the discipline and/ or a situation in the real world.\n •Applications of the research	. Indicate how the research may be practically useful in real-world situations\n •Recommendations. Give specific suggestions for real-world actions to be taken on the basis of the research.\n\nStep 1: Restate the problem\n\nThe first task of your conclusion is to remind the reader of your research problem. You will have discussed this problem in depth throughout the body, but now the point is to zoom back out from the details to the bigger picture. While you are restating a problem you’ve already introduced, you should avoid phrasing it identically to how it appeared in the introduction. Ideally, you’ll find a novel way to circle back to the problem from the more detailed ideas discussed in the body.\n\nAvoid starting your conclusion with phrases like “In conclusion” or “To conclude,” as this can come across as too obvious and make your writing seem unsophisticated. The content and placement of your conclusion should make its function clear without the need for additional signposting.\n\nStep 2: Sum up the paper\n\nHaving zoomed back in on the problem, it’s time to summarize how the body of the paper went about addressing it, and what conclusions this approach led to. Depending on the nature of your research paper, this might mean restating your thesis and arguments, or summarizing your overall findings.\n\nStep 3: Discuss the implications\n\nHaving summed up your key arguments or findings, the conclusion ends by considering the broader implications of your research. This means expressing the key takeaways, practical or theoretical, from your paper—often in the form of a call for action or suggestions for future research.\n\nGuidelines in Making Recommendations\n\nRecommendations are arguably the most important part of the analysis phase—this is where you’ll suggest specific interventions or strategies to address the issues and constraints identified in the assessment. Recommendations should directly respond to key findings arrived at through data collection and analysis. A process of prioritization is essential to narrowing down findings, and once this is done, recommendations should be developed that align with the most important findings.\n\nRecommendations should be one-sentence, succinct, and start with an action verb (create, establish, fund, facilitate, coordinate, etc.). They should use a “SMART” format (Specific, Measurable, Attainable, Realistic, Timely). Each recommendation should be followed by a few sentences of explanatory text.\n\nIn addition to being “SMART,” recommendations should be feasible. Both operational feasibility and political feasibility (i.e., political will) should be considered when developing recommendations. Experience has demonstrated that gauging potential public sector receptivity to proposed private health sector initiatives is essential.\n\nRecommendations stem from the findings. Link each of your recommendations to the finding that supports it, to highlight the direct connection between assessment and action. You can show this link visually by using a two-columned table: the first column lists the finding, and the respective recommendation is listed adjacently in the second column.\n\nRecommendations for future research should be:\n\n •Concrete and specific\n •Supported with a clear rationale\n •Directly connected to your research\n\nOverall, strive to highlight ways other researchers can reproduce or replicate your results to draw further conclusions, and suggest different directions that future research can take, if applicable.\n\nBuilding your Research Recommendation\n\nThere are many different ways to frame recommendations, but the easiest is perhaps to follow the formula of research question -> conclusion  ->  recommendation. Here’s an example:\n\nResearch question\n\nHow can teachers at your local preschool ensure that social skills that contribute to maintaining peer relationships are promoted in children aged 1 to 4?\n\nConclusion\n\nAn important condition for controlling many social skills is mastering language. If children have a better command of language, they can express themselves better and are better able to understand their peers. Opportunities to practice social skills are thus dependent on the development of language skills.\n\nRecommendation\n\nThe investigation revealed that mastering language is an important prerequisite for mastering social skills. On this basis, future research should examine the ability of language development programs to expand the language skills of children aged 1 to 4.\n\nExample of Recommendation in Research\n\nThe current study can be interpreted as a first step in the research on COPD speech characteristics. However, the results of this study should be treated with caution due to the small sample size and the lack of details regarding the participants’ characteristics.\n\nFuture research could further examine the differences in speech characteristics between exacerbated COPD patients, stable COPD patients, and healthy controls. It could also contribute to a deeper understanding of the acoustic measurements suitable for e-health measurements."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeApplication">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="    Application  \n  Practical Uses \n of Quantitative \n       Research"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Science, Technology, Engineering, and Mathematics (STEM)\n\nPractical application of quantitative research is most evident in STEM related fields. Different innovations, inventions, and discoveries are made through conducting quantitative research. The things around you are all products of research. Some examples are COVID-19 vaccine, digital devices, and many more.\n\nAccountancy, Business and Management (ABM)\n\nQuantitative research can be used in marketing research. It can help in establishing new products/services, developing marketing strategies, determining the preferences of customers, analyzing competitors, and many more. If you are into the field of business, quantitative research can surely help you establish your brand and deliver better products and services by analyzing responses from your target market and other similar variables.\n\nHumanities and Social Sciences (HUMSS)\n\nThe research design that is most commonly associated in HUMSS related topics is qualitative research, but quantitative research can also be useful here. Quantitative Research can be used in exploring trends, questions of differences, and questions of relationships.\n\nTechnical-Vocational-Livelihood (TVL)\n\nAlthough not an academic track, TVL can make use of quantitative research to improve the quality of life mostly focused on education. Quantitative research can be used to achieve goals like developing the skills of students and improving specialized courses available in the track.\n\nSports\n\nSince quantitative data is objective, its analysis can be useful in the field of sports. Quantitative research can help in formulation of programs and coaching techniques to improve performance in sport.\n\nArts and Design\n\nQuantitative research can be used in the field of arts and design. It can clarify the relationship of arts to our community. Furthermore, techniques and other methods can be developed through the use of evaluation of measurable data.\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

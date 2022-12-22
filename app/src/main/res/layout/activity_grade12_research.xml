@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Research">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 4"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Data Processing, Organizing, and Analysis\nAccording to an article of Kelley (2022), Data analysis is the process of modifying, processing, and cleaning raw data in order to obtain useful, pertinent information that supports commercial decision-making. The process offers helpful insights and statistics, frequently presented in charts, graphics, tables, and graphs, which lessen the risks associated with decision-making.\n\nDescriptive Statistical Analysis (Tyagi, n.d.)\nDescriptive statistical analysis allows us to more effectively depict and analyze data using numerical calculation, graphs, or tables as opposed to processing data in its raw form.
+It involves a number of processes, including tabulation, a measure of central tendency (mean, median, mode), a measure of dispersion or variance (range, variation, standard deviation), skewness measurements, and time-series analysis, from all necessary preliminary steps to the concluding analysis and interpretation.\n\nInferential Statistical Analysis (Inferential Statistics - Definition, Types, Examples, Formulas, n.d.)\nA statistical field \that employs analytical tools to make inferences about a population by analyzing samples taken at random. Generalizations about a population are what inferential statistics are intended to do. Inferential statistics uses a statistic (such as the sample mean) from the sample data to draw conclusions about the population parameter (e.g., the population mean).\nHypothesis Testing\nAssumptions (null and alternative hypothesis) are tested using this method with the use of available sample data. Based on the test statistic's value, the critical value, and the confidence intervals, a conclusion is reached; it can be left-tailed, right-tailed, and two-tailed.\n\nZ-Test: Used when the sample size is greater than or equal to 30 and is normally distributed. When the population variance is known, it is used to determine if the sample and population means are equal.\nT-Test: Used when the sample size is less than 30 and the data has a student t distribution. This is used to compare sample and population mean when the population variance is unknown.\nF-Test: Used to check if there is a difference between the variances of two samples or populations.Confidence Interval: Used in calculating the critical value in hypothesis testing; it helps estimate the parameters of a population.\n\nOther tests used in inferential statistics are the ANOVA test, Wilcoxon signed-rank test, Mann-Whitney U test, Kruskal-Wallis H test, and many more.\nRegression Analysis\nRegressions are used to calculate how one variable will change in relation to another one. It comes in a variety of forms, including basic linear, multiple linear, nominal, logistic, and ordinal. Linear regression is the most frequently utilized, it examines the effect of a unit change in the independent variable on the dependent variable.\n\nMore Information About Different Statistical Tools\n\nT-Test (Bevans, 2022)
+\nThis statistical test is employed to compare the means of two groups. It is frequently employed in hypothesis testing to establish whether a procedure or treatment truly affects the population of interest or whether two groups differ from one another. It can only be used when comparing the means of two groups (a.k.a. pairwise comparison).\n\nAs a parametric test, t test assumes that your data: (1) are independent, (2) are (approximately) normally distributed, and (3) have a similar amount of variance within each group being compared (a.k.a. homogeneity of variance).\n\n •Paired t test - performed if the groups come from a single population; this is a within-subjects design.\n •Two-sample t test (independent t test) - performed if the groups come from two different populations; this is a between-subjects design.\n •When the variances of the two populations are identical, the pooled two-mean t test is employed, while the unpooled two-mean t test is used when the variances of the two populations.\n •One-sample t test - performed if there is one group being compared against a standard value\n •Two-tailed t test - performed if you only care whether the two populations are different from one another.\n •One-tailed t test - performed if you want to know whether one population mean is greater than or less than the other.\nFormula:\nWhere,\nt is the t value;\nx1 and x2 are the means of the two groups being compared;\ns2 is the pooled standard error of the two groups; and\nn1 and n2 are the number of observations in each of the groups\nPearson’s r and Spearman’s rho (Bhandari, 2022)\n\nPearson’s product-moment correlation coefficient (Pearson’s r) is used to describe the linear relationship between two quantitative variables. As a parametric test, Pearson’s r assumes that your data: (1) are on an interval or ratio level of measurement, (2) follow normal distributions, (3) have no outliers, (4) from a random or representative sample, and (5) has a relationship that is expected to be linear.\n\nPearson’s r Formula:\nWhere,\nrxy is the strength of the correlation between variables x and y;
+\nn is the sample size;\n is the sum of what follows…\nx is every x-variable value;\ny is every y-variable value; and\nxy is the product of each x-variable score and the corresponding y-variable score.\n\nSpearman’s rank correlation coefficient (Spearman’s rho) is the most common alternative to Pearson’s r. Because the rankings of the data from each variable are used rather than the raw data itself, the correlation coefficient is called a rank correlation coefficient. When your data don't fit Pearson's r's presumptions, you should utilize Spearman's rho. This occurs when one or both of your variables has data that does not follow a normal distribution or when at least one of your variables is measured on an ordinal scale. The Spearman correlation coefficient indicates relationships' monotonicity.\n\n •Positive monotonic: when one variable increases, the other also increases.\n •Negative monotonic: when one variable increases, the other decreases.\n\nSpearman’s rho Formula:\nWhere\nrs is the strength of the correlation between variables;\ndi is the difference between the x-variable rank and the y-variable rank for each pair of data;\ndi2 is the sum of the squared differences between x- and y-variable ranks; and
+n is the sample size.\n\nAnalysis of Variance (ANOVA)  (Bevans, 2022b) and (Bevans, 2022c)\nAnalysis of Variance (ANOVA), is a statistical test used to analyze the difference between the means of more than two groups.\nA one-way ANOVA uses one independent variable. It is used when you have data on a categorical independent variable and a quantitative dependent variable.There should be at least three levels in the independent variable (i.e. at least three different groups or categories).This shows the dependent variable's relationship to the level of the independent variable.\nAs a parametric test, one-way ANOVA assumes: (1) independence of observations, (2) normally-distributed response variable, and (3) homogeneity of variance.\n\nA two-way ANOVA uses two independent variables; it can be used when you have data on a quantitative dependent variable at various levels of two categorical independent variables. As a parametric test, two-way ANOVA assumes: (1) homogeneity of variance, (2) independence of observations, and (3) normally-distributed dependent variable.\n\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

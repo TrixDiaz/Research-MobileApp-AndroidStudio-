@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11QualitativeResearchIntroduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 1"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="The introduction, theoretical framework, statement of the problem, hypothesis, scope and limitation, conceptual framework, significance of the study, and definitions of key terminology are all included in this chapter.\n\nIntroduction: The introduction's role is to guide the reader from a broad subject area to a specific area of study. It establishes the context of the research being done by summarizing the current state of knowledge and background information on the subject, stating the goal of the work in the form of the hypothesis, question, or research problem, briefly outlining your justification and methodological approach, highlighting the potential outcomes your study can reveal, and outlining the remaining elements of the paper's structure.\n\nThe introduction serves as the paper's broad opening and provides readers with answers to three crucial questions:\n\n •What is this?\nWhat draws me to read it?\nWhat do you want me to consider, do, or respond to?\n\nConsider the introduction's organizational structure as an informational inverted pyramid. Discuss the more basic properties of the topic early in the introduction, then focus on the information that is more particular to the topic and offers context before coming to your statement of aim, your justification, and, if possible, the probable outcomes your investigation can disclose.\n\nTheoretical Framework: Within the bounds of the critical limiting assumptions, theories are developed to explain, forecast, and comprehend phenomena as well as, in many circumstances, to challenge and expand known knowledge. The structure that can sustain or assist a research study's theory is known as the theoretical framework. The research subject under study's underlying theory is introduced and described in the theoretical framework.\n\nThe literature does not readily provide access to the theoretical foundation. Look up theories and analytical models that are pertinent to the study subject you are looking into in the course texts and pertinent research literature. A theory should be chosen based on its applicability, simplicity, and explanatory strength. The study is strengthened in the following ways by the theoretical framework.\n\n •The reader can critically assess theoretical premises when they are stated in an explicit manner.\n •The researcher is connected to existing knowledge by the theoretical framework. You are provided with a foundation for your hypotheses and method of research selection, guided by a pertinent theory.\n •You are compelled to answer the why and how questions by outlining the theoretical presumptions of a research investigation. It enables you to go beyond merely describing an observed phenomenon to making generalizations about different facets of that phenomenon.\n •You can recognize the boundaries of those generalizations with the aid of a theory. A theoretical framework identifies the important factors that affect an interesting phenomenon. It prompts you to consider how and under what conditions those crucial elements might change.\n\nStatement of the Problem: A research problem is a claim about an area of interest, an issue that needs to be resolved, a challenge that needs to be overcome, or a perplexing topic that appears in academic literature, in theory, or in practice and necessitates thoughtful analysis and inquiry. The research challenge is frequently presented as a question in several fields of social science. A research challenge doesn't provide instructions, make a general or hazy claim, or pose a moral dilemma.\n\nAs given by the Sacred Heart University Library, problem statement's objectives are to:\n\n •Educate the reader on the significance of the subject under study. The importance of the study and the ensuing research questions or hypotheses are explained to the reader.\n•Places the issue in a specific context that establishes the scope of the investigation. \n•Outlines the structure for presenting the findings, lists the likely requirements for carrying out the research, and explains how the outcomes will display this data.\n\nHypothesis: A hypothesis has only one objective: to foretell the facts, information, and conclusion of your work. It springs from an intuitive and curious place. Writing a hypothesis is essentially making an educated assumption based on evidence and scientific prejudices that is then confirmed or refuted through the scientific method.\n\nThe goal of research is to observe a certain phenomenon. Therefore, a hypothesis describes what the said phenomenon is. A dependent variable and an independent variable are used to achieve this\n\nScope and Delimitations: A major element of any research paper is the study's scope. It indicates the size of the potential research area. Additionally, it offers constraints within which researchers will work. For instance, a researcher wishes to produce a report about how mobile devices affect elementary school pupils' behavior. We all understand, however, that it is difficult to address every aspect of that subject. As a result, we can use the scope to isolate a certain segment of the target market. In this setting, we can narrow our focus to a group of 50 kids in grades 2 through 5 at a particular school. Following that, the trial would run for 6 months.\n\nAfter it is completed, we can concentrate on the study's delimitation, which establishes its bounds. These comprise the sample size, location, population, and other factors. Explaining why some activities were taken in the study while others weren't should also be included in the part on the study's delimitation. This is carried out since a research's conclusion could be impacted by particular choices.\n\nConceptual Framework: It is the researcher's comprehension, hypothesis, or investigation of a preexisting framework, model, or how pre existing concepts interact to illuminate a specific issue. It demonstrates to the reader how several components work together to make research and the understanding of results easier. Additionally, it serves as a tool (connected concepts) to aid in comprehending the connections between ideas or variables in the context of the real world. Each idea is connected in order to frame the project at hand.\n\nTo make a conceptual framework, you should:\n\n •Start finding the major ideas that have been employed in prior studies by looking at the body of literature. Determine what previous researchers have done and what needs to be done.\n •Start identifying the variables, concepts, hypotheses, and frameworks that have already been proposed in the relevant literature.\n •Consider how some of those elements—variables, theories, concepts, and components of existing frameworks—combine to form your issue.\n •Make a graphic depiction of your framework (this part is optional, but often helps readers understand the flow of your research). To ensure that your reader has a clear understanding of your framework, remember to follow APA formatting when dividing your framework into sections.\n\nSignificance of the Study: It outlines the contribution your research will make to the larger body of knowledge or set of larger educational challenges after it is finished. You will decide what you expect others will get from your study and/or how readers will gain knowledge or benefit from it.\n\n •This part should consider the following:\n\n •an illustration of how your study will add to the body of knowledge already written on the topic or large problem areas of education;\n •a discussion of how you want to add to the existing body of knowledge; and\n •an explanation of who gains from the research as well as how the results will benefit that particular audience. What new knowledge will your study add to the body of expertise or the field?\n\nDefinition of Terms: This helps your readers comprehend the ideas or elements that will be covered in your study and provides background information on how you plan to apply those ideas. It also refers to a thorough explanation of the measurements and technical jargon utilized to acquire the data. To standardize the data, this is done. Any time data is being gathered, it is important to specify the data collection process in detail.\n\nThe following details by Mcgrath Native Council provide helpful advice for students who want to select a suitable example and create a strong definition of terms part in their papers:\n\n •At the beginning of your research article, define any key terms and concepts. They often appear before the main text and immediately after the sentence that states the goal of the investigation.\n •It is advised to dedicate one paragraph to defining each phrase. You can offer a variety of definitions and specify which one you plan to utilize in your essay.\n •It is important to note that you must cite the sources from which you take definitions. As you write, cite your sources. To make the material more readable, see whether you can include footnotes. Consult with your supervisor.\n •You may need to consult several dictionaries to create a solid definition section because each one offers a slightly different interpretation, and selecting the best definitions requires some work.\n •Don't forget to explain in your research what verb-adjective combinations signify. For instance, the meaning of terms like 'is regarded more effective' or 'is worse' may vary greatly depending on the type of study. The same holds true for verbs and adverbial groups like 'positively' and 'negatively.'\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

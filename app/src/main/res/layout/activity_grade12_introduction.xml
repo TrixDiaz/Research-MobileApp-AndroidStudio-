@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12Introduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 1"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Research Topic\n\nGuidelines in Choosing a Research Topic (based on an article by Mehta, 2018)\n\n •Brainstorming - Find a relevant topic that interests you by noting any keywords or ideas that may catch your attention. Focus your search on a particular area, ask yourself a few questions about it.\n •Accumulate General Background Information - Read different articles and pieces of literature to know more about the topics you are considering.\n •Focus On Your Topic -  Topic should not be too broad or too narrow; it should be manageable so you would not lose focus.\n •Listing Useful keywords - Keep a list of the words that are used to describe the subject so you can gather all the information you need to expand your search options.\n •Be Flexible - During the course of the study process, topics are frequently changed. You can discover alternative topics during your investigation that are more engaging or feasible. Such adaptability guarantees successful outcomes.\n •Define Your Research Topic As A Focused Research Question - Develop a question based on the keywords you listed or your topic; transform your topic into question form.\n •Research and Collect Information - Gather and read more information about your topic to make sure that your topic is researchable.\n •Formulate A Thesis Statement - Clarify the aim of your research by writing the topic as a thesis statement. The objectives of the study can be established through this.\n\nDefinition of Terms\nDefinition of terms is usually an annex to a work (book, research paper, pamphlet,etc.) either at the beginning or more likely near the end with a list of acronyms, jargon, credits, etc. (Riaru, 2016). This is an important part of Research paper or report in which the key or important terms in the study are clearly defined. It establishes the rules and procedures the investigators will use to measure variables and it provides unambiguous meaning to terms that otherwise can be interpreted in different ways.\n\nThree Parts of formal Definition of Terms (Alegre et al., 2021)\n1.The term or concept to be defined.\n2.The collected term or general class to which the concept belongs.\n3.The specific characteristics or attributes that distinguish the concept defined from all other concepts in its general classification.\n\nFor example, Teamwork (the term to be defined) - may be defined as a shared positive, fulfilling, work-related psychological state (the collective term or general class to which the concept belongs to) or characterized by group vigor, dedication, and absorption, to which emerges from the interaction and shared experiences of the work team (the specific characteristic of the term).\nMoreover, there are two types of definition that must be given for each term or concept:\n •Conceptual Definition - it is a working definition specifically assigned to a term or concept (Bailey, Field, Froggatt and Krishnasamy, 2002). It is the universal meaning that is attributed to a word or group of words and which is understood by many people. The usual source of conceptual definition is the dictionary which is the reference book of everyday language. It is also important to cite where you acquired the definition from specifically and note it in the form of in-text citation.\n •Operational Definition - describes the operations undertaken to measure the concept or terms in the conceptual definition (Bailey, Field, Froggatt and Krishnasamy, 2002). It is a description of the term in terms of the operations (procedures, actions, or processes) by which it could be observed and measured in the study. The process of creating an operational definition is known as operationalization.\n •The usual practice when using both types of definition is to state first the conceptual definition followed by the operational definition. For example, this is how the term academic performance would be defined in the Definition of Terms of a particular study that aims to measure the academic performance of senior high school students before and after a digital learning app is integrated in teaching:\n •Academic performance - is the extent to which a student, teacher, or institution has attained their short or long-term educational goals and is measured either by continuous assessment or cumulative grade point average (Talib and Sansgiry, 2012). In this study, the researchers will measure the academic performance of the students by their score or the results they obtained in their pre-test and post-test which they will answer via questionnaire."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Proper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 5"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Start out this section by briefly stating the main goal of the investigation and how the results connect to it. Give a succinct summary of the findings (e.g., This study examined – then write what you examined). You will categorically state your research's findings in this chapter, distinguishing between people's versions of truth and literal truth. The major findings of the investigation should be amply reflected in the conclusion. The description of each finding should be included in the summary of the findings, using anchor words that support rather than misrepresent the findings' intended meaning. Based on the objectives and parameters of your study, explain how the results are significant or pertinent. Comparing or connecting your findings to the research listed in the literature review of your study is another aspect of the summary of the findings. Are they new, different, or the same?\n\nJustify all conclusions with the data and incorporate findings from other studies into this one (explain how they differ, how they are similar, and how your findings add to what is already known, for example). Describe how your results connect to the theoretical or practical understanding of the subject held by the field. Draw conclusions from the outcomes, taking into account any other reasons for the results.\n\nSummary of Findings: Describe the findings you will discuss in this section. The reader will get a sense of the organization of this section from this. Give an introductory paragraph after the Level 2 header and before incorporating Level 3 headings in every section with subheadings. Declare that your research questions have been addressed. You should at the very least inform the reader of how many finds were discovered and give a brief description of each one. The fact that the conclusions you give in Chapter 5 fit and reflect what is significant from the data in Chapter 4 is crucial.\n\nImplications for Practice: The assertion of the study's practical consequences and a reference to a discovery from your own research are both essential parts. Another need is to provide a discussion that illustrates how the advice could be put into effect or how it would benefit a particular audience. Whenever applicable, include links to the literature.\n\nRecommendations for Research: Indicate the number and importance of the recommendations for further research that will be made. For each suggestion, write a paragraph or two of discussion. In each discussion, make the research recommendation and offer explanations of how it would advance or expand the study. Determine particular research gains based on your suggestions.\n\nConclusion: Show details that demonstrate your own reflections or insights into the ongoing study of your topic. This discussion gives a broad overview of the significance of the research field. The talk could include a section on how a certain audience would profit from the research or on the repercussions if this research is ignored. Another aspect of the conversation will motivate people to keep adding to a certain body of knowledge.\n\nKeep in mind that not all academic papers call for each of these elements. Additionally, special criteria for some tasks might not be fulfilled by this arrangement. This organizational structure is intended to serve as a basic, cross-disciplinary guideline to help you get started writing a conventional academic paper. Before making any final judgments on the design and structure of your work, you should always check the specifications of a particular area, academic journal, or instructor.\n\nAcknowledgements\n      In a research paper, the acknowledgment is the section, found at the beginning of the
+work, where the author shows appreciation for the people, institutions, or organizations that contributed to their study. In this part of the paper, the author takes advantage of the opportunity to thank every individual or group behind the project’s success. The acknowledgment is almost similar to a dedication, except that it is more formal. This section is placed immediately after the table of contents and before the body of the paper. It is also relatively brief and could be written from a first person point of view.\n\nDo’s and Don’ts in Writing an Acknowledgment\n •Do’s\n   1.State the full names of the people you want to acknowledge.\n   2.Carefully identify the roles of the parties included in the acknowledgment.\n   3.List all the funding organizations as well as the parts of the project that they funded.\n   4.Use the first person singular or plural.\n   5.Use formal language.\n•Dont's\n   1.Acknowledge every single person who had even the smallest impact on the success of the research.\n   2.Include a person who qualified for authorship in the research project.\n   3.Use informal or personal language.\n\nReferencing\nIn writing a research paper, it is important to properly cite sources to avoid
+plagiarism. A citation is a reference to any source that the author sought information from while writing the paper. Moreover, citations allow readers to know where the writer obtained their material, it provides means of critiquing the study, and it offers opportunities to gain additional information regarding the topic or problem under investigation (Research Guides: Organizing Academic Research Papers: Purpose of Guide, n.d.). Citations can be in-text or in the references list. The reference page is located at the end of the paper. It can be in APA, CMOS, or MLA format, depending on which referencing style is preferred by the institution or instructor.
+\n\nImportance of Proper Citations\n •Allows readers to easily locate the source materials used by the writer.\n •Citing the work of other people shows that the researcher has conducted a thorough review of related literature.\n •Ideas of other writers can be used to support  arguments.\n •Properly citing sources strengthens an author’s reputation and credibility.\n\nWriting a Reference List\n •The reference list should be located at the end of the paper.\n •Each source cited in the body text of the paper must be included in the list.\n •The references should begin on a new page, separated from the text of the study.\n •The second and any subsequent lines are indented ½” from the left margin (hanging indent).\n •Last names of the authors should be provided first.\n •Author’s first and middle names should be written in initials.\n •Reference list entries should be alphabetically arranged by the last name of the first author of each work.\n •For multiple articles with the same author, or authors listed in the same order, list the entries in chronological order, from earliest to most recent."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

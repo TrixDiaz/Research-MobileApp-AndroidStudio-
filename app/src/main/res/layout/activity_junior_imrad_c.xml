@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JuniorImradC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="IMRAD-C"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="PARTS OF AN IMRAD-C FORMAT \n            RESEARCH PAPER\n\nAbout Research\nThe IMRaD-C is a scientific writing format which includes five major sections: (1) Introduction, (2) Methods, (3) Results, (4) Discussion, and (5) Conclusion. The IMRaD-C format is useful in conducting primary research (e.g., experimentation, questionnaires, observations, interviews, etc.), but it can also be applied in doing secondary research. The goal of IMRaD-C is to present facts objectively and demonstrate a genuine interest in gaining a deeper understanding of a new topic. This format is often utilized in healthcare and the natural sciences. Research papers structured using the IMRaD-format are usually short and concise, and do not include personal views and fanciful language.\n\nStrengths and Weaknesses\nAlthough widely used by writers in science and research fields, the IMRaD-C format still has its strengths and weaknesses. And as identified by Conduct Science (n.d.) the strengths of the IMRaD-C format include the following:\n\n•It lets authors present ideas and findings in a modular and heuristic manner.\n•It improves both skimming and scanning of readers.\n•Editors and reviewers can evaluate a research paper easily since the IMRaD-C format involves a concise internal organization.\n•It allows a study to be replicated and reproduced.\n•Using the IMRaD-C format improves the art of writing and communication of science.\n\nAs for the weaknesses:\n\n•Critics claim that the IMRaD-C format is too rigid and simplistic.\n•The IMRaD-C format can’t be used in works such as case reports, reviews, editorials, and meta-analyses.\n•It does not cover anything about a paper’s title, authorship, or summary.\n•The acknowledgments and references sections are somewhat neglected.\n\nAbstract\nAn IMRAD-C format will not be complete without attaching the effective and concise summary of the paper. An abstract serves an informative preview of the paper. This helps future researchers and readers to know if the paper is relevant to their previous study as a reference. This allows the readers to decide if they should read the entire part of the paper.
+ 	An abstract consist of one paragraph with mainly 150-250 words to entirely summarize the whole concept of the paper (Nair, 2014). This part must have the complete idea of rationale, objectives, flow of methods used, interpreted results, and the main conclusions and their implications.
+Relevant keywords must be listed and italicized under the finalized abstract. Excessive use of tables, charts, and graphs will not facilitate a concise abstract. This part follows a block format and contains respective tenses in representing the contained sections in the paper.
+"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="-80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <Button
+                android:id="@+id/JuniorWebView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue Reading"
+                android:layout_gravity="center"
+                android:layout_marginTop="-59dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

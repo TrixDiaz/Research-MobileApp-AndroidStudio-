@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Research">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Strengths and\n Weaknesses\nof Qualitative\nResearch"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="As stated by Bhandari (2020), a qualitative approach has also its merits and demerits for it is applied in different contexts.\n\n As for the strengths:\n•Flexibility. Collection of data and analysis can be adapted to variety of statements.\n•Natural settings. The collection is done personally and contexts reflect real-life situations.\n•Meaningful insights. Acquired experiences and perceptions enhance the significance of the study  and depth in explaining the content. \n•Generation of new solutions. The analyzed explanations uncover unheard stories that can be thought of progressive opportunities for development.\n\nFor the weaknesses:\n•Unreliability. Researchers might overlook some extraneous variables that may affect reliability of the findings.\n•Subjectivity. This approach focuses on personal experiences and insights that cannot be easily adapted or repeated by future researchers. \n•Limited generalizability. Qualitative often uses small sample as observed samples that general conclusions might not resonate the wider population. \n•Required intensive mental and labor preparation. The quantity of uttered statements and quality to be responsive must be balanced along the data collection. This approach digests heavy transcriptions to understandable contexts.\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

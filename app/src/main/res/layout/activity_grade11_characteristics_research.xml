@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11CharacteristicsResearch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 3"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:textColor="@color/white"
+                android:text="Three sections make up Chapter 3: (1) the study's goal and research design; (2) the methods; and (3) the statistical data analysis process. The study's goal is related in the first section, which also describes the research strategy and the variables that were employed in the study. The participants, the tools used to collect data, and the methodology utilized in the study are all described in Part 2, Methods. The scoring process and the statistical analysis used to interpret the hypothesis are described in Part 3, Statistical Data Analysis Procedures.\n\nPurpose of the Study and Research Design: A research design's main goal is to offer a study plan that enables proper assessment of the causal links between independent and dependent variables. The traditional controlled experiment is the best illustration of an effective research design. The appraisal of an experimental treatment's effectiveness (internal validity) and the generalizations that can be drawn from it (external validity) are both threatened by a number of factors. By removing a variable, using randomness, matching, or including a variable in the design, sources of variance can be reduced. A research project should be planned so that:\n\n •it responds to the study objectives;\n •it controls unrelated elements; and\n •the level of generalization that may be made is valid.\n\nMethods: These are the techniques, procedures, or processes used in the gathering of information or proof for analysis in order to learn new things or develop a deeper understanding of a topic. Techniques or tools used for gathering research data include:\n\nStatistical Data Analysis: The planning, designing, data collection, analysis, inference of meaningful interpretation, and reporting of the research findings are all statistical approaches used in a study. The statistical analysis lends meaning to the useless data, giving the data some life. Only when appropriate statistical tests are applied will the results and inferences be accurate. In statistical data analysis, variables make up the data (s). The data may occasionally be univariate or multivariate. Different statistical procedures are used by the researcher depending on the quantity of variables.\n\nIf there are several data points in the statistical data analysis, then multiple multivariates can be used. These include statistical data analysis of factors and discriminants, among others. Similar to this, a univariate statistical data analysis is conducted if the data is solitary in nature. This comprises one-way ANOVA, the t test for significance, the z test, and the f test.\n\nContinuous data and discrete data are the two main types of data used in statistical data analysis. The type of data that cannot be counted is continuous data. For instance, light intensity can be measured but not tallied. The data that can be counted are the discrete data. One can count the number of bulbs, for instance.\n\nThe process of statistical inference is a key component of statistical data analysis. Estimation and testing of hypotheses make up the majority of the statistical inference.In statistical data analysis, parametric data—that is, data made up of parameters—is mostly used for estimation. Contrarily, testing of hypotheses in statistical data analysis primarily uses non-parametric data—that is, data that has no parameters."
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

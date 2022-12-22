@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@drawable/background"
+    tools:context=".ReferenceFormat">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="REFERENCE"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="-20dp"
+            android:text="FORMAT"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/Juniorapa"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:fontFamily="@font/cosmic"
+            android:background="@drawable/button_background"
+            android:text="APA 7th Edition"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/Juniorcmos"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-80dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:fontFamily="@font/cosmic"
+            android:background="@drawable/button_background"
+            android:text="CMOS"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/Juniormla"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/cosmic"
+            android:background="@drawable/button_background"
+            android:text="MLA"
+            android:textSize="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/border"/>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include layout="@layout/main_navigation_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

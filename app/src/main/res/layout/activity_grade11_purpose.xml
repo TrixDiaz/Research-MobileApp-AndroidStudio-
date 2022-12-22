@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Purpose">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="Proper\nPaper Format\n(Qualitative\nResearch)"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Outline of Parts\nThis is the overview of the parts of a qualitative research paper. Listed here are the things you need to include in your paper. Note that this can be subject to change depending on the nature of your research and the requirements of your research teacher.\n\n*Do not forget to write an introductory paragraph for each part\n•Title Page\n•Preliminaries\n  •Approval Sheet\n  •Acknowledgement\n  •Dedication\n  •Abstract\n  •Table of Contents\n\n•Chapter I: The Problem and its Background\n  •Statement of the Problem\n  •Significance of the Study\n  •Scope and Delimitations\n\n•Chapter II: Review of Related Literature and Studies\n  •Related Literature\n  •Related Studies\n  •Conceptual Framework\n  •Definition of Terms\n\n•Chapter III: Methodology\n  •Research Design\n  •Sampling Technique\n  •Research Instrument\n  •Research Procedure\n    •Data Collection\n    •Data Analysis\n    •Data Validation\n  •Ethical Consideration\n\n•Chapter IV: Presentation, Analysis, and Interpretation of Data\n•Results and Discussion\n\n•Chapter V: Summary, Conclusions, and Recommendations\n  •Summary\n  •Conclusions\n  •Implications for Future Researchers\n•References\n•Appendices\n  •This part is where all other documents related to your research are placed. Including but not limited to:\n  •Plagiarism scan reports\n  •Communication Letters\n  •Informed consent form\n  •Informed consent form\n  •Grammarian’s certificate\n  •Research instrument validation form\n  •Curriculum vitae\n"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

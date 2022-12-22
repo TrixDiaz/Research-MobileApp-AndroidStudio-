@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Strenghts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Chapter 4"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="This chapter ought to present the results of your analysis. Consider it as a 'stand alone' chapter that you could give to a friend and they could read it to learn what you learned through your research. The chapter should present the 'solutions' to your research questions and should emulate the chapter 2 design that you proposed. Additionally, it ought to support the goal of the study you proposed in Chapter 1 and show why the study was necessary in the first place. Your observations or outcomes must be related to your literature review, particularly your conceptual framework. Only the outcomes of statistical analyses are included in the results section of certain quantitative dissertations. In other quantitative dissertations, the commentary that links the results to the pertinent literature and conceptual framework is included in the results section.\n\nThe chapter summarizes the researchers’ best ideas on how to respond to the stated research issues. As a result, it is clear that a methodology that contains many gaps could result from a lack of knowledge of Chapter 3's function, which could cause the study to deviate from its intended course and fail to address the research objectives.\n\nThe following topics are frequently covered in this chapter and are usually covered in the following order:\n\n •Introduction\n-Describe your research questions to the reader once again.\n-You will restate the research questions in a qualitative study.\n-The hypothesis for a quantitative investigation is presented.\nQualitative findings, quantitative findings, and discussion (quantitative)\n-The data that must be reported in a qualitative investigation is referred to as results. Themes that have appeared or been discovered in the data you gathered are known as findings. They are the end result of your investigation.\n-In quantitative research, the outcomes of the quantitative analyses performed may be presented independently, without any accompanying linkages to the wider body of literature.\n\nHow do you organize your chapter?\n\n •Your chapter must be structured to address your research questions. The content must be arranged so that it makes sense to your reader and is simple to follow.\n •To ensure confidentiality when presenting qualitative data, all names are hidden. During the consent process and in your IRB application, you promised to keep this promise to your participants.\n •Tables, charts, and figures are acceptable for both qualitative and quantitative capstones.\n •To be sure that you employ the proper format for tables, charts, and figures, consult APA."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

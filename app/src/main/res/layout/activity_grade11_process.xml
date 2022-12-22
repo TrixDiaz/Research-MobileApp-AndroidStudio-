@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade11Process">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Characteristics"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="A qualitative research has key characteristics that are applied in aspects of investigation which has been used wide range of reasons. Characteristics are based from USC Libraries, 2022:\n\n•Naturalistic. A qualitative approach is flexible to whatever real-life situations may occur. The researcher is open to transparent statements without too manipulation and control. \n\n•Purposeful. This design comprehensively explains within culture, region, and communities why certain phenomena happen in the situation. This gives useful definition to causes and manifestations which reflects the statements of the participants.  \n\n•Personal engagement. There is a close interaction between the respondents and researchers. Researchers are able to closely understand the first-hand experiences of chosen samples. \n\n•Empathic neutrality. Mindfulness without showcasing judgment but full of understanding is shown in qualitative studies. This consists of awareness and respect with regards to stated answers of the respondent.\n\n•Dynamic systems. The interviewer in data collection is mentally present to comprehend and digest the flow of conversation. Shows signs of responsiveness, attentiveness, and consistency to structure flow.\n\n•Holistic approach. A qualitative study examines not only a single aspect of statement but also considers the bridge of effects and experiences perceived. In that way, there are dynamics and content-rich findings.\n\n•Context sensitive. A qualitative researcher ensures carefulness in describing historical cultures, social origins, and other context to expound the cause and effect of variables. Patterns observed are done with credibility to avoid misinterpretation."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

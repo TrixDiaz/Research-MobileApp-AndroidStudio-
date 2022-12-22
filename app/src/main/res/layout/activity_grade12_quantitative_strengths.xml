@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Grade12QuantitativeStrengths">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Strengths and\nWeaknesses\nof Quantitative\nResearch"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="As stated by Alegre et.al (2021), the following are the strengths and weaknesses of Quantitative Research:\n\nStrengths:\n•It  is objective.  The  most  reliable  and  valid  way  of  concluding  results,  giving way  to a new  hypothesis  or  to  disproving  it. Because  of  bigger  number  of  the  sample  of  a population, the results or generalizations are more reliable and valid. Since it provides numerical data, it can’t be easily misinterpreted.\n\n•The  use  of  statistical  techniques  facilitates  sophisticated  analyses  and  allows  you  to comprehend a huge amount of vital characteristics of data.\n\n•It  is  real  and  unbiased.  If  the  research  is  properly  designed  it  filters  out  external factors, and so can be seen as real and unbiased.\n\n•The numerical data can be analyzed in a quick and easy way. By employing statistically valid  random  models,  findings  can  be  generalized  to  the  population  about  which information is necessary.\n\n•Quantitative  studies  are  replicable.  Standardized  approaches  allow  the  study  to  be replicated in different areas or over time with formulation of comparable findings.\n\n•Quantitative  experiments  are  useful  for  testing  the  results  gained  by  a series  of qualitative  experiments,  leading  to  a  final  answer,  and  narrowing  down  of  possible directions to follow.\n\nWeaknesses:\n•Quantitative research requires a large numberof respondents. It is assumed that the larger the sample is, the more statistically accurate the findings are.\n\n•It is costly. Since, there are more respondents compared to qualitative research, the  expenses will  be  greater  in  reaching  out  to these  people  and  in  reproducing questionnaires.\n\n•The  information  is  contextual  factors  to  help  interpret  the  results  or  to  explain variations  are  usually  ignored.  It  does  not  consider  the  distinct  capacity  of  the respondents  to  share  and  elaborate  further  information  unlike  the  qualitative research.\n\n•Much  information  are  difficult  to  gather  using  structured  research  instruments, specifically  on  sensitive  issues  like  pre-marital  sex,  domestic  violence,  among others.
+\n\nIf not done seriously and correctly, data from questionnaires may be incomplete and  inaccurate.  Researchers  must  be  on  the  look-out  for  respondents  who  are just guessing in answering the instrument."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

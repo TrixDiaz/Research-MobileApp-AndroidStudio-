@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JuniorResearchEthics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imrad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Research Ethics"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="Ethical Principles\n     In accordance with Resnik (2020), there are ethical principles to consider in conducting research, namely honesty, objectivity, integrity, carefulness, openness, transparency, accountability, intellectual property, confidentiality, responsible publication, responsible mentoring, respect for colleagues, social responsibility, non-discrimination,  competence, legality, animal care, and human subjects protection.\n\nHonesty\n     In all scientific communications, strive for honesty. Honestly reflect the information, findings, techniques, and status of publications. Don't fabricate, falsify, or represent data incorrectly. Do not mislead peers, research sponsors, or the general public.\n\nObjectivity\n     Avoid bias in all areas of research where objectivity is expected or required, namely experimental design, data analysis, data interpretation, peer review, personnel decisions, grant writing, expert testimony, etc. Prevent or reduce bias and self-deception. Disclose relevant personal or financial interests that might influence research.\n\nIntegrity\n     Keep your word and uphold commitments; be sincere in your conduct; and strive for uniformity of thought and action.\n\nCarefulness\n     Refrain from making thoughtless mistakes and being negligent; thoroughly and scrutinize both your own and your peers' work. Maintain thorough records of all research activities, including data gathering, research design, and communications with organizations or journals.
+\n\nOpenness\n     Share information, results, ideas, techniques, and tools. Be receptive to fresh concepts and criticism.\n\nTransparency\n     Discuss the procedures, resources, presumptions, analyses, and other data necessary to assess your research.\n\nAccountability\n     Be prepared to give an explanation or justification of what you did on a research project and why. Assume responsibility for your part in the research.\n\nIntellectual Property\n     Respect copyrights, patents, and other types of intellectual property. Without authorization, never use unpublished data, methods, or results. Give due credit or acknowledgment to all contributors to the research. Never plagiarize.\n\nConfidentiality\n     Protect confidential communications, including papers or grants that have been submitted for publication, employee records, commercial or military trade secrets, and patient records.\n\nResponsible Publication\n     Publishing should be done to advance scholarship and research, not only your own career. Avoid repetitive and unnecessary publications.\n\nResponsible Mentoring\n    Assist in educating, mentoring, and counseling students. Promote their welfare and allow them to decide for themselves.\n\nRespect for Colleagues\n     Respect your coworkers and be fair to them.\n\nSocial Responsibility\n     Attempt to advance social good and prevent or reduce social harms through advocacy, research, and public outreach.\n\nNon-Discrimination\n     Do not treat colleagues or students differently because of their gender, race, ethnicity, or any other characteristics irrelevant to their scientific integrity and competence.\n\nCompetence\n     By engaging in lifelong learning and education, one can uphold and increase their own professional competence and expertise. Take action to advance scientific competency in general.\n\nLegality\n     Become familiar with and follow legal requirements, rules, and regulations.\n\nAnimal Care\n     Animals used in research should be treated with the appropriate respect and care. Don't use animals in pointless or poorly designed research.\n\nHuman Subjects Protection\n     Respecting human dignity, privacy, and autonomy; taking extra measures with vulnerable groups; minimizing harms and risks; and working to properly distribute the rewards and responsibilities of research are all important considerations when conducting research on human subjects.\nCodes, regulations, and principles are crucial and useful, but like any set of guidelines, they may not apply in all circumstances and require a great deal of interpretation. Therefore, it is essential that researchers learn how to interpret, evaluate, and apply different research rules as well as how to decide what to do and how to behave morally under different circumstances. Most decisions involve the straightforward application of moral principles.\n\nResearch Misconduct\n     The three most common research misconduct that should be avoided by researchers are fabrication, falsification, and plagiarism according to the National Academy of Sciences (n.d.).\n\n•Fabrication is the making up of data or results\n•\nFalsification is defined as altering or omitting data or results so that the research is not accurately represented in the research record, manipulating research supplies, equipment, or methods, or both.\n•Plagiarism is defined as the inappropriate use of another person's ideas, procedures, results, or words without proper credit.\n\nISEF Forms\n     When talking about research and ethics, what you must consider are the ISEF (International Science and Engineering Fair) rules, laws and regulations. ISEF provides different forms to be filled up before any research takes place; researchers are only to fill up the forms that are required for their study. Provided are web pages links where you can download all the documents from Form 1 up to Abstract Form. Please note that ISEF forms change over time.\n\nOverview: https://www.societyforscience.org/isef/overview-of-forms-and-dates/
+\nISEF Forms: https://www.societyforscience.org/isef/forms/"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

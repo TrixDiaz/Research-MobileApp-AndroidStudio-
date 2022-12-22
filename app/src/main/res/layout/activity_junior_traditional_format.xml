@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JuniorTraditionalFormat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Traditional \n    Format"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/cosmic"
+            android:textColor="@color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:text="    PARTS OF A TRADITIONAL  \n           RESEARCH PAPER\n\nAbstract: The abstract is a concise, self-contained one-paragraph description of the most crucial aspects of the study. In little more than 250 words, an abstract should respond to the following four questions, accordinTheg to Boateng (n.d.):\n\n•Why did you do this project or study? The goal of the research?\n•What and how did you do? The process for gathering and analyzing data?\n•What did you find? Key findings of the study?\n•What do your results indicate? Theoretical and/or managerial implications of the findings in general?\n\nHence, the report's introduction, methods, and results sections are highlighted in the abstract. Here are some additional abstract-related considerations:\n\n•Do not duplicate or rewrite the title of the report because we usually read the abstract alongside it. The abstract is always read with the body of the report. But make it comprehensive enough to stand alone.\n•Don't mention anything in the abstract that is not in the report.\n•Avoid using brand names, abbreviations, symbols, or acronyms.•There are no statistics or references in the abstract.\n•As with previous paragraphs, the first line of the abstract should not be indented.\n•Except for the numbers that start a sentence, all of the numbers in the abstract are typed in digits."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="-80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <Button
+                android:id="@+id/JuniorWebView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue Reading"
+                android:layout_gravity="center"
+                android:layout_marginTop="-59dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/button_background"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
